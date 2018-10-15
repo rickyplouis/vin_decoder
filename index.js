@@ -43,6 +43,6 @@ csv
   })
   .on("end", function(){
     console.log('decodedVins', decodedVins);
-    csv.writeToPath("validated.csv", decodedVins)
+    csv.writeToPath("validated.csv", decodedVins, { headers: true })
    console.log("done");
   });
