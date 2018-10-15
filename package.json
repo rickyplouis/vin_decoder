@@ -1,0 +1,17 @@
+{
+  "name": "vins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "convert-array-to-csv": "^1.0.4",
+    "fast-csv": "^2.4.1",
+    "node-xlsx": "^0.12.1",
+    "vindec": "^2.6.3"
+  }
+}
